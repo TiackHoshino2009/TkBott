@@ -1,0 +1,20 @@
+# Tên tài khoản Minecraft có skin bot sẽ mang. Cần plugin LibsDisguises.
+# Đổi thành bất kỳ tên tài khoản nào có skin bạn muốn.
+skin: TungTungSahur
+
+# Bot đặt block thật (obsidian bên cạnh bạn, crystal đặt lên obsidian, respawn anchor) khi PvP.
+# Đặt false để tắt, lúc đó bot chỉ dùng hiệu ứng thay cho block.
+place-blocks: true
+
+# true: block bot đặt ở lại như thật. false: obsidian và anchor được trả về block cũ sau 3 giây.
+restore-placed-blocks: false
+
+# true: vụ nổ crystal và anchor của bot phá block thật. Cần gamerule mobGriefing bật.
+# Vùng có plugin bảo vệ (ví dụ WorldGuard) vẫn chặn vụ nổ theo flag của vùng đó.
+explosions-break-blocks: true
+
+# Cho phép bot dùng respawn anchor khi PvP. Đặt false để tắt anchor.
+anchors: true
+
+# Bot tự biến mất khi bạn đi xa hơn số block này hoặc sang thế giới khác (ví dụ sau khi rtp).
+despawn-distance: 100
